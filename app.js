@@ -1,6 +1,6 @@
 
    function button () {
-            document.getElementById("startBtn").innerHTML = "Game Started";
+            document.getElementById("startBtn").innerHTML = "Roll Dice ";
 
             setTimeout(function() {
                 var dice = Math.floor(Math.random() * 6) + 1;
